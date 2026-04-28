@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Total Destape</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+    body{background:#f5f7fb;color:#1e293b}
+
+    header{
+      display:flex;justify-content:space-between;align-items:center;
+      padding:20px 40px;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,0.05)
+    }
+    header h1{color:#0f172a}
+    nav a{margin:0 15px;text-decoration:none;color:#334155;font-weight:500}
+    .btn{
+      background:#0ea5e9;color:#fff;padding:10px 18px;border-radius:8px;
+      text-decoration:none;font-weight:600
+    }
+
+    .hero{
+      display:flex;align-items:center;justify-content:center;
+      text-align:center;padding:80px 20px;
+      background:linear-gradient(180deg,#e0f2fe,#f5f7fb)
+    }
+    .hero h2{font-size:40px;margin-bottom:15px}
+    .hero p{margin-bottom:20px;color:#475569}
+
+    .hero .actions a{
+      margin:5px;padding:12px 20px;border-radius:8px;
+      text-decoration:none;font-weight:600;display:inline-block
+    }
+    .primary{background:#f97316;color:#fff}
+    .secondary{background:#fff;border:1px solid #cbd5f5;color:#1e293b}
+
+    .services{
+      display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;padding:40px
+    }
+    .card{
+      background:#fff;padding:20px;border-radius:12px;
+      text-align:center;box-shadow:0 5px 15px rgba(0,0,0,0.05)
+    }
+    .card h3{margin:10px 0}
+    .card p{font-size:14px;color:#64748b}
+
+    .why{
+      display:flex;flex-wrap:wrap;align-items:center;justify-content:center;
+      gap:40px;padding:60px 20px
+    }
+    .why ul{list-style:none}
+    .why li{margin:10px 0;font-weight:500}
+
+    footer{
+      background:#0f172a;color:#fff;padding:30px;text-align:center
+    }
+    footer p{font-size:14px;color:#cbd5f5}
+
+    @media(max-width:768px){
+      .hero h2{font-size:28px}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Total Destape</h1>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Sobre Nosotros</a>
+    <a href="#">Contacto</a>
+    <a class="btn" href="#">Solicitar Presupuesto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>SOLUCIONES INTEGRALES PARA TU HOGAR Y NEGOCIO</h2>
+    <p>Servicio de Destapes y Fugas Urgentes 24/7</p>
+    <div class="actions">
+      <a href="#" class="primary">Llámanos Ahora</a>
+      <a href="#" class="secondary">Ver Servicios</a>
+    </div>
+  </div>
+</section>
+
+<section class="services">
+  <div class="card">
+    <h3>Destapes de Tuberías</h3>
+    <p>Soluciones rápidas para bloqueos en cañerías.</p>
+  </div>
+  <div class="card">
+    <h3>Limpieza de Desagües</h3>
+    <p>Mantención completa de sistemas sanitarios.</p>
+  </div>
+  <div class="card">
+    <h3>Localización de Fugas</h3>
+    <p>Detección precisa sin romper estructuras.</p>
+  </div>
+  <div class="card">
+    <h3>Mantención Preventiva</h3>
+    <p>Evita emergencias con revisiones periódicas.</p>
+  </div>
+  <div class="card">
+    <h3>Instalación de Grifería</h3>
+    <p>Instalaciones seguras y profesionales.</p>
+  </div>
+</section>
+
+<section class="why">
+  <div>
+    <h2>Why Us</h2>
+    <ul>
+      <li>✔ Técnicos Certificados</li>
+      <li>✔ Atención Urgente 24h</li>
+      <li>✔ Precios Transparentes</li>
+      <li>✔ Tecnología Avanzada</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Total Destape - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
